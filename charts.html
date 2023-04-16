@@ -15,9 +15,9 @@
 </head>
 <body>
     <style>.box {  }; </style>
-        <button onclick="downloadCfg()">Save Config</button>
+        
     <div class="box">
-                <div id="1" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="1" class="chart-container" style="position: absolute; width: 545.4px; height: 582.4px; top: 38.400001525878906px; left: 959px;"></div>
     <script>
         var chart_1 = echarts.init(
             document.getElementById('1'), 'infographic', {renderer: 'canvas'});
@@ -100,7 +100,7 @@
 };
         chart_1.setOption(option_1);
     </script>
-<br/>                <div id="2" class="chart-container" style="width:900px; height:500px;"></div>
+<br/>                <div id="2" class="chart-container" style="position: absolute; width: 646.4px; height: 264.4px; top: 772.2000122070312px; left: 8px;"></div>
     <script>
         var chart_2 = echarts.init(
             document.getElementById('2'), 'infographic', {renderer: 'canvas'});
@@ -258,7 +258,7 @@
 };
         chart_2.setOption(option_2);
     </script>
-<br/>                <div id="3" class="chart-container" style="width:900px; height:500px;"></div>
+<br/>                <div id="3" class="chart-container" style="position: absolute; width: 525.4px; height: 308.4px; top: 455px; left: 9px;"></div>
     <script>
         var chart_3 = echarts.init(
             document.getElementById('3'), 'infographic', {renderer: 'canvas'});
@@ -378,7 +378,7 @@
 };
         chart_3.setOption(option_3);
     </script>
-<br/>                <div id="4" class="chart-container" style="width:900px; height:500px;"></div>
+<br/>                <div id="4" class="chart-container" style="position: absolute; width: 480.4px; height: 308.4px; top: 454.8000183105469px; left: 545px;"></div>
     <script>
         var chart_4 = echarts.init(
             document.getElementById('4'), 'infographic', {renderer: 'canvas'});
@@ -483,7 +483,7 @@
 };
         chart_4.setOption(option_4);
     </script>
-<br/>                <div id="5" class="chart-container" style="width:900px; height:500px;"></div>
+<br/>                <div id="5" class="chart-container" style="position: absolute; width: 565.4px; height: 405.4px; top: 630.6000366210938px; left: 940px;"></div>
     <script>
         var chart_5 = echarts.init(
             document.getElementById('5'), 'infographic', {renderer: 'canvas'});
@@ -6157,7 +6157,7 @@
 };
         chart_5.setOption(option_5);
     </script>
-<br/>                <div id="6" class="chart-container" style="width:900px; height:500px;"></div>
+<br/>                <div id="6" class="chart-container" style="position: absolute; width: 1496.4px; height: 405.4px; top: 1047.4000244140625px; left: 9px;"></div>
     <script>
         var chart_6 = echarts.init(
             document.getElementById('6'), 'infographic', {renderer: 'canvas'});
@@ -11851,7 +11851,7 @@
 };
         chart_6.setOption(option_6);
     </script>
-<br/>                <div id="7" class="chart-container" style="width:900px; height:500px;"></div>
+<br/>                <div id="7" class="chart-container" style="position: absolute; width: 652.4px; height: 405.4px; top: 38.20000076293945px; left: 8px;"></div>
     <script>
         var chart_7 = echarts.init(
             document.getElementById('7'), 'infographic', {renderer: 'canvas'});
@@ -12221,19 +12221,19 @@
     </script>
 <br/>    </div>
     <script>
-            $('#1').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#1>div:nth-child(1)").width("100%").height("100%");
+            $('#1').css('border-style', 'dashed').css('border-width', '0px');$("#1>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#1'), function() { chart_1.resize()});
-            $('#2').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#2>div:nth-child(1)").width("100%").height("100%");
+            $('#2').css('border-style', 'dashed').css('border-width', '0px');$("#2>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#2'), function() { chart_2.resize()});
-            $('#3').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#3>div:nth-child(1)").width("100%").height("100%");
+            $('#3').css('border-style', 'dashed').css('border-width', '0px');$("#3>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#3'), function() { chart_3.resize()});
-            $('#4').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#4>div:nth-child(1)").width("100%").height("100%");
+            $('#4').css('border-style', 'dashed').css('border-width', '0px');$("#4>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#4'), function() { chart_4.resize()});
-            $('#5').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#5>div:nth-child(1)").width("100%").height("100%");
+            $('#5').css('border-style', 'dashed').css('border-width', '0px');$("#5>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#5'), function() { chart_5.resize()});
-            $('#6').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#6>div:nth-child(1)").width("100%").height("100%");
+            $('#6').css('border-style', 'dashed').css('border-width', '0px');$("#6>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#6'), function() { chart_6.resize()});
-            $('#7').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#7>div:nth-child(1)").width("100%").height("100%");
+            $('#7').css('border-style', 'dashed').css('border-width', '0px');$("#7>div:nth-child(1)").width("100%").height("100%");
             new ResizeSensor(jQuery('#7'), function() { chart_7.resize()});
             var charts_id = ['1','2','3','4','5','6','7'];
 function downloadCfg () {
